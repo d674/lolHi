@@ -16,24 +16,4 @@ public class HomeController {
 	public String showMain2() {
 		return "잘가";
 	}
-	@RequestMapping("/usr/home/plus") 
-	@ResponseBody 
-	public int showPlus(int a, int b) {
-		return a + b;
-	}
-	@RequestMapping("/usr/home/minus") 
-	@ResponseBody 
-	public int showMinus(int a, int b) {
-		return a - b;
-	}
-	@RequestMapping("/usr/home/multi") 
-	@ResponseBody 
-	public int showMulti(int a, int b) {
-		return a * b;
-	}
-	@RequestMapping("/usr/home/div") 
-	@ResponseBody 
-	public int showDiv(int a, int b) {
-		return a / b;
-	}
 }
